@@ -1,0 +1,38 @@
+.navbar-nav {
+  width: 40%;
+}
+
+body {
+  background-image: url(/bootstrap-5.0.2-dist/images.jfif);
+}
+
+.barner-section p {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+li a {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* .img-div img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: white;
+} */
+
+button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.fa-brands.fa-github {
+  width: 200%;
+}
