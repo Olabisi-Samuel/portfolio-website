@@ -16,6 +16,19 @@ li a {
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 20%;
+
+}
+
 .navbar-brand {
   font-weight: bold;
 }
@@ -25,10 +38,9 @@ li a {
 }
 
 div.project-container {
-  /* background-color: black; */
   display: grid;
   grid-template-columns: 45% 45%;
-  grid-template-rows: 80% 80% 80%;
+  grid-template-rows: 60% 60% 60%;
   text-align: center;
   gap: 40px;
   padding: 20px;
@@ -40,7 +52,7 @@ div.project-container {
 .box-4,
 .box-5, .box-6 {
   border: 5px;
-  background-color: white;
+  background-color: rgb(62, 46, 129);
   border-radius: 5px;
   height: 100%;
   width: 50%;
@@ -53,12 +65,11 @@ div.project-container {
 @media only screen and (max-width: 860px) {
   div.project-container {
   display: grid;
-  grid-template-columns: 95%;
-  grid-template-rows: 60% 60% 60% 60% 60% 60%;
+  grid-template-columns: 99%;
+  grid-template-rows: 30% 30% 30% 30% 30% 30%;
   text-align: center;
   gap: 40px;
   padding: 20px;
-  width: 110%;
 }
 }
 
